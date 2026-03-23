@@ -14,6 +14,24 @@ agent → Sigora → provider
 
 Sigora becomes the control point for identity, authorization policy, and secure request execution.
 
+## Documentation
+
+This repository currently contains the project definition and implementation plan.
+
+- [Docs Index](./docs/README.md)
+- [Architecture Design](./docs/architecture.md)
+- [Implementation Strategy](./docs/implementation-strategy.md)
+- [Vision And Roadmap](./docs/vision-and-roadmap.md)
+- [V1 MVP Spec](./docs/v1-mvp-spec.md)
+- [V1 Implementation Notes](./docs/v1-implementation-notes.md)
+
+## Local Validation
+
+- `make check`
+- `make e2e`
+
+The shell e2e suite lives in `scripts/e2e` and exercises the Rust `sigora` and `sigorad-server` loop with isolated temporary state.
+
 ---
 
 # Core Concepts

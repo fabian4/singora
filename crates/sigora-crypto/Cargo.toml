@@ -1,0 +1,11 @@
+[package]
+name = "sigora-crypto"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+hex.workspace = true
+hmac.workspace = true
+sha2.workspace = true
+thiserror.workspace = true

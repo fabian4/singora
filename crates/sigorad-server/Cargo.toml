@@ -1,0 +1,18 @@
+[package]
+name = "sigorad-server"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+axum.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sigora-proto = { path = "../sigora-proto" }
+sigorad-core = { path = "../sigorad-core" }
+tokio.workspace = true
+time.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+uuid.workspace = true

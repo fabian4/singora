@@ -1,0 +1,19 @@
+[package]
+name = "sigora-cli"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[[bin]]
+name = "sigora"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sigora-proto = { path = "../sigora-proto" }
+time.workspace = true
+uuid.workspace = true

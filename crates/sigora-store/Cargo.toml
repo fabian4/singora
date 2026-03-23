@@ -1,0 +1,11 @@
+[package]
+name = "sigora-store"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+rusqlite.workspace = true
+time.workspace = true
+uuid.workspace = true

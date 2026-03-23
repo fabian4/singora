@@ -1,0 +1,11 @@
+[package]
+name = "sigorad-core"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+sigora-proto = { path = "../sigora-proto" }
+time.workspace = true
+uuid.workspace = true
